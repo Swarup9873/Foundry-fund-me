@@ -1,0 +1,5 @@
+1. Storage keyword in solidity - it is a giant array which is used to store all our global variables. note that here variables with constant keyword and immutable keyword are not stored. Also variables inside functions are not stored in storage , they have some other data structure.
+   remeber reading and writing into storage variables is wayyyyyy more expeansive then memory. We should use as low storage functions as possible.
+
+2. variables with constant keyword and immutable keyword are part of the contract's bytcode.
+
